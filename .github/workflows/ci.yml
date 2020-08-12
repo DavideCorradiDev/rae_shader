@@ -27,7 +27,7 @@ jobs:
       matrix:
         platform:
           - {os: windows-latest, run_tests: true, gen_doc: true}
-          - {os: ubuntu-latest, run_tests: false, gen_doc: false}
+          - {os: ubuntu-latest, run_tests: true, gen_doc: false}
           - {os: macos-latest, run_tests: true, gen_doc: false}
 
     env:
